@@ -29,13 +29,13 @@ theme[meter_bg]="#393B44"
 theme[proc_misc]="#8ea4a2"
 
 # CPU, Memory, Network, Proc box outline colors
-theme[cpu_box]="#8ba4b0"
-theme[mem_box]="#8a9a7b"
-theme[net_box]="#c4b28a"
-theme[proc_box]="#a292a3"
+theme[cpu_box]="#393B44"
+theme[mem_box]="#393B44"
+theme[net_box]="#393B44"
+theme[proc_box]="#393B44"
 
 # Box divider line and small boxes line color
-theme[div_line]="#393B44"
+theme[div_line]="#8ea4a2"
 
 # Temperature graph color (Green -> Yellow -> Red)
 theme[temp_start]="#8a9a7b"
