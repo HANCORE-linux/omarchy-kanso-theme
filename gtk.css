@@ -8,14 +8,14 @@
     @define-color magenta        #a292a3;
     @define-color cyan           #8ea4a2;
     @define-color white          #c8c093;
-    @define-color bright_black   #A4A7A4;
+    @define-color bright_black   #393B44;
     @define-color bright_red     #e46876;
     @define-color bright_green   #87a987;
     @define-color bright_yellow  #e6c384;
     @define-color bright_blue    #7fb4ca;
     @define-color bright_magenta #938aa9;
     @define-color bright_cyan    #7aa89f;
-    @define-color bright_white   #C5C9C7;
+    @define-color bright_white   #A4A7A4;
 
     @define-color accent_bg_color @blue;
     @define-color accent_fg_color @background;
