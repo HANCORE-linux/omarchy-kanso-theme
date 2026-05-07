@@ -1,6 +1,6 @@
-# Kanso
+# Kanso 
 
-[Kanso](https://github.com/webhooked/kanso.nvim) 
+[Kanso](https://github.com/webhooked/kanso.nvim) - "Zen" colorscheme
 - nvim
 - vscode
 - zed
