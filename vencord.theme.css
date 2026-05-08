@@ -259,6 +259,7 @@ span[class*="textBadge"] {
 
 .mention.interactive:hover {
     background-color: var(--base04) !important;
+    color: var(--base00) !important;
 }
 
 svg._5b40bdd67543ba35-spine._5b40bdd67543ba35-invertedSpine,
