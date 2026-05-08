@@ -17,6 +17,8 @@ omarchy-theme-install https://github.com/HANCORE-linux/omarchy-kanso-theme.git
 ```
 
 <img width="2560" height="1440" alt="screenshot-2026-05-07_23-00-01" src="https://github.com/user-attachments/assets/41b4fe32-2e01-46fb-aa65-89925f9149b9" />
+<img width="2560" height="1440" alt="screenshot-2026-05-08_13-09-24" src="https://github.com/user-attachments/assets/fba7bc0a-a016-4f14-b42a-06dc2692698f" />
+
 
 #### Waybar
 [LINK](https://github.com/HANCORE-linux/waybar-themes)
