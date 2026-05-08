@@ -24,9 +24,9 @@
         --color14: #a292a3;
         --color15: #c4b28a;
        --base00: var(--color00);
-    --base01: var(--color01);
-    --base02: var(--color02);
-    --base03: var(--color03);
+    --base01: var(--color00);
+    --base02: var(--color00);
+    --base03: #393B44;
     --base04: var(--color04);
     --base05: var(--color05);
     --base06: var(--color06);
@@ -45,34 +45,31 @@
 .theme-darker,
 .theme-midnight,
 .visual-refresh {
-    --background-primary: var(--base00) !important;
-    --background-secondary: var(--base00) !important;
-    --background-secondary-alt: var(--base00) !important;
-    --background-tertiary: var(--base00) !important;
-    --background-main: var(--base00) !important;
-    --chat-background-default: var(--base00) !important;
-    --home-background: var(--base00) !important;
-    --bg-overlay-chat: transparent !important;
-    --bg-overlay-color-inverse: transparent !important;
-    --bg-surface-overlay: var(--base00) !important;
+--background-primary: #090E13 !important;
+    --background-secondary: #090E13 !important;
+    --background-secondary-alt: #090E13 !important;
+    --background-tertiary: #090E13 !important;
+    --background-floating: #090E13 !important;
+    --background-main: #090E13 !important;
+    --chat-background-default: #090E13 !important;
+    --home-background: #090E13 !important;
+    --bg-surface-overlay: #090E13 !important;
+    --bg-surface-raised: #090E13 !important;
+    --background-base-lower: #090E13 !important;
+    --background-base-lowest: #090E13 !important;
     
     --background-accent: var(--base03) !important;
-    --background-floating: var(--base02) !important;
-    --background-mentioned-hover: color-mix(in srgb, var(--base0B) 35%, var(--base01)) !important;
-    --background-mentioned: color-mix(in srgb, var(--base0B) 25%, var(--base01)) !important;
-    --background-message-highlight: var(--base02) !important;
-    --background-message-hover: var(--base02) !important;
+    --background-mentioned-hover: var(--base03) !important;
+    --background-mentioned: var(--base03) !important;
+    --background-message-highlight: var(--base00) !important;
+    --background-message-hover: #393B44 !important;
     --background-mod-strong: var(--base02) !important;
     --background-modifier-accent: var(--base02) !important;
     --background-modifier-active: var(--base02) !important;
-    --background-modifier-hover: var(--base01) !important;
-    --background-modifier-selected: var(--base02) !important;
     --background-surface-highest: var(--base02) !important;
     --background-surface-higher: var(--base02) !important;
     --background-surface-high: var(--base02) !important;
     --background-base-low: var(--base01) !important;
-    --background-base-lower: var(--base00) !important;
-    --background-base-lowest: var(--base00) !important;
     --background-base-tertiary: var(--base00) !important;
     --background-code: var(--base02) !important;
     --background-mod-subtle: var(--base01) !important;
@@ -82,7 +79,6 @@
     --bg-mod-faint: var(--base01) !important;
     --bg-overlay-2: var(--base01) !important;
     --bg-overlay-3: var(--base01) !important;
-    --bg-surface-raised: var(--base02) !important;
     --black: var(--base00) !important;
     --blurple-50: var(--base03) !important;
     --border-faint: var(--base02) !important;
@@ -226,7 +222,7 @@
 .bg__d4b370 {
     background: var(--base00) !important;
     background-color: var(--base00) !important;
-    opacity: 1 !important;
+    box-shadow: none !important;
 }
 
 path[fill^="currentColor"],
@@ -301,7 +297,7 @@ li[class*="mentioned"]::before {
 }
 
 .childWrapper__6e9f8 {
-    background-color: var(--base02) !important;
+    var(--base00) !important;
 }
 
 .card__73069 {
@@ -330,7 +326,7 @@ li[class*="mentioned"]::before {
 .visual-refresh {
     div[class^="autocomplete__"] { background-color: var(--base02) !important; }
     .searchBar__97492 { background-color: var(--base02) !important; }
-    .channelTextArea_f75fb0 { background: var(--base01) !important; }
+    .channelTextArea_f75fb0 { var(--base00) !important; }
     .chatContent_f75fb0 { background-color: var(--base00) !important; }
     .sidebar_c48ade { background-color: var(--base00) !important; }
 }
@@ -347,7 +343,7 @@ svg[fill^="#43a25a"], path[fill^="#43a25a"] { fill: var(--status-positive) !impo
   right: 0;
   bottom: 0;
   width: 1px;
-  background: rgba(255,255,255,0.15);
+  background: var(--base03);
   transform: scaleX(0.5);
   transform-origin: right;
   pointer-events: none;
@@ -387,4 +383,8 @@ div[class*="clear_"]:hover {
 [class*="threadSuggestion"] [class*="text-muted"] {
     color: var(--base0B) !important; /* Dein Türkis #82eeff */
     opacity: 1 !important;
+}
+
+[class*="baseLayer"], [class*="scrollableContainer"] {
+    background-color: var(--base00) !important;
 }
