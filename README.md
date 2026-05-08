@@ -1,9 +1,11 @@
 # Kanso 
 
-[Kanso](https://github.com/webhooked/kanso.nvim) - "Zen" colorscheme
+[Kanso](https://github.com/webhooked/kanso.nvim) - "Zen" colorscheme, support:
 - nvim
 - vscode
 - zed
+- foot
+- yazi
 
 ## Color Scheme Description 
 "Kansō is a color scheme that invites focus, not attention. Inspired by the rustic, traditional palette of Kanagawa, Kansō refines those tones into a more balanced visual hierarchy. It is designed to reduce visual noise and eye strain, creating a calm, 'Zen-like' environment for deep work."
