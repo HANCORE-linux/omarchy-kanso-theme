@@ -5,7 +5,7 @@ theme[main_bg]="#090E13"
 theme[main_fg]="#C5C9C7"
 
 # Title color for boxes
-theme[title]="#C5C9C7"
+theme[title]="#8ea4a2"
 
 # Highlight color for keyboard shortcuts
 theme[hi_fg]="#e6c384"
@@ -26,7 +26,7 @@ theme[graph_text]="#c8c093"
 theme[meter_bg]="#393B44"
 
 # Misc colors for processes box including mini cpu graphs, details memory graph and details status text
-theme[proc_misc]="#8ea4a2"
+theme[proc_misc]="#c8c093"
 
 # CPU, Memory, Network, Proc box outline colors
 theme[cpu_box]="#393B44"
@@ -35,7 +35,7 @@ theme[net_box]="#393B44"
 theme[proc_box]="#393B44"
 
 # Box divider line and small boxes line color
-theme[div_line]="#8ea4a2"
+theme[div_line]="#393B44"
 
 # Temperature graph color (Green -> Yellow -> Red)
 theme[temp_start]="#8a9a7b"
