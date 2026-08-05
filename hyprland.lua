@@ -31,7 +31,7 @@ hl.config({
     shadow = {
       enabled = true,
       range = 16,
-      color = "rgba(00000052)",
+      color = "rgba(00000066)",
     },
   },
   animations = {
